@@ -11,11 +11,23 @@ const handleFocusOut = ({target}) => {
 inputs.forEach((input) => input.addEventListener('focus', handleFocus));
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut));
 
+const button = document.querySelector('button');
+
+const addLoading = () => {
+    
+    button.innerHTML = '<img src="6356630.png" class="loading" alt="">'
+}
+
+const removeLoading = () => {
+    button.innerHTML = 'Enviar'
+}
+
+
 const handleSubmit = (event) =>{
     event.preventDefault();
-
-    const name = document.querySelector('input[name=name]').value
-    const email = document.querySelector('input[name=email]').value;
+    addLoading();
+    const name = document.querySelector('input[name=name]').value;
+    const telefone = document.querySelector('input[name=telefone]').value;
 
     fetch('https://api.sheetmonkey.io/form/tw8bR3XZCpWMwt4kqzPoMV',{
 
@@ -24,8 +36,8 @@ const handleSubmit = (event) =>{
         'Accept': 'application/json',
         'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ name, email}),
-    });
+    body: JSON.stringify({ name, telefone}),
+    }).then(() => removeLoading())
 }
 
 document.querySelector('form').addEventListener('submit',handleSubmit);
