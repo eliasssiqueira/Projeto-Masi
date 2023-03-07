@@ -1,6 +1,6 @@
 body{
 
-    background-image: linear-gradient(to right, #bf2f03, #FF4E13);
+    background-image: linear-gradient(to right, #d69e8b, #FF4E13);
 }
 
 div{
@@ -88,24 +88,3 @@ p{
   
 }
 
-
-
-/*
-
-.loading{
-    width: 30px;
-    animation: spin 1s infinite linear;
-
-}
-
-@keyframes spin{
-    from {
-        transform: rotate(0deg);
-    }
-    
-    to{
-        transform: rotate(360deg);
-    }
-}
-
-*/
