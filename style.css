@@ -1,12 +1,13 @@
 body{
-    background: #FF4E13;
+
+    background-image: linear-gradient(to right, #bf2f03, #FF4E13);
 }
 
 div{
     width: 220px;
     height: 250px; 
     display: inline-block;
-    vertical-align: top;
+    padding-top: 0px;
     border: 2px solid black;
 
     position: absolute;
@@ -15,24 +16,27 @@ div{
     transform:  translate(-50%,-50%);
 
     border-radius: 5%;
-    border-color: #FF4E13;
+    border-color: #f1efee;
     background-color: white;
    
 }
 
 form{
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform:  translate(-50%,-50%);
     
-    
 }
 
 
 img{
+    position: absolute;
+    top: -80px;
     width: 200px;
     padding-left: 18%;
+    
    
   
 }
@@ -46,8 +50,10 @@ img{
 }
 
 .telefone{
+   
     padding: 10px;
     margin-left: 18%;
+    
     
 }
 
@@ -56,7 +62,7 @@ button{
     align-items: center;
     margin-left:37%;
     position: absolute;
-    margin-top: 5%;
+    margin-top: 10%;
     background-color: #FF4E13;
     border-radius: 7px;
     color: aliceblue;
@@ -66,8 +72,28 @@ button{
    
 }
 
+p{
+    color: rgb(11, 2, 2);
+    width: 220px;
+    height: 135px; 
+    display: inline-block;
+    padding: 5px 5px 0px 5px;
+  
+    border: 2px solid rgb(235, 233, 233);
+    background-color: aliceblue;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+
+    border-radius: 5%;
+   
+    text-align: left;
+  
+}
 
 
+/*
 
 .loading{
     width: 30px;
@@ -84,3 +110,5 @@ button{
         transform: rotate(360deg);
     }
 }
+
+*/

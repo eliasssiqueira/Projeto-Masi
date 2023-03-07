@@ -23,13 +23,14 @@ const removeLoading = () => {
 }
 
 
+
 const handleSubmit = (event) =>{
     event.preventDefault();
     addLoading();
     const name = document.querySelector('input[name=name]').value;
     const telefone = document.querySelector('input[name=telefone]').value;
 
-    fetch('https://api.sheetmonkey.io/form/tw8bR3XZCpWMwt4kqzPoMV',{
+    fetch('https://api.sheetmonkey.io/form/jf5D5zrdskKqSzdbW9Ahvh',{
 
     method: 'post',
     headers: {
@@ -41,3 +42,5 @@ const handleSubmit = (event) =>{
 }
 
 document.querySelector('form').addEventListener('submit',handleSubmit);
+
+<script src="./script.js"> </script>
