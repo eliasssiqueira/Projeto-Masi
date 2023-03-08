@@ -79,7 +79,18 @@ button{
 footer {
     position: fixed;
     bottom:0;
-    margin-left:0;
+    left:0;
     text-align: center;
+    
+   
+
+    width: 100%;
+    
+    
+}
+
+p{
+    font-size: 10px;
+    
 }
 
