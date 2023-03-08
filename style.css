@@ -1,6 +1,10 @@
 body{
-
     background-image: linear-gradient(to right, #d69e8b, #FF4E13);
+    
+    min-height: 100vh;
+    flex-direction: column;
+      
+      
 }
 
 div{
@@ -72,19 +76,9 @@ button{
    
 }
 
-p{
-   
-
-  
-    font-size: 12px;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform:  translate(-50%,-50%);
-
-    border-radius: 5%;
-   
-    text-align: left;
-  
+footer {
+    position: fixed;
+    bottom:0;
+    left: 10px;;
 }
 
