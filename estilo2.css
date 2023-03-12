@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right, #d69e8b, #FF4E13);
+    
+    min-height: 100vh;
+    flex-direction: column;
+      
+      
+}
+
+.pagina-dois{
+
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:  translate(-50%,-50%);
+}
+
+.boa-sorte{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.redes-sociais{
+    font-weight: bold;
+    font-size: larger;
+}
+
+img{
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+}
